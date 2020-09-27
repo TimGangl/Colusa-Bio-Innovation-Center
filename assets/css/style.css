@@ -1,5 +1,39 @@
-body {
-  padding: 10px;
+body {}
+
+.navbar {
+  background-color: #003399 !important;
+  color: white !important;
+  border: 5%;
+  padding-right: 3%;
+}
+
+.nav-link {
+  color: white !important;
+  margin: .001%;
+
+}
+
+.nav-link:hover {
+  color: #f6a800 !important;
+}
+
+#title-box {
+  margin-top: 5%;
+  background-color: #003399;
+  border: 25px;
+  text-align: left;
+  justify-content: center;
+  height: 400px;
+}
+
+#title {
+  justify-content: center;
+  color: white;
+  padding-left: 20%;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 #home-title-box {
@@ -21,18 +55,64 @@ body {
 }
 
 #menu {
+  color: white;
   text-align: end;
   justify-content: end;
-  color: white;
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 2%;
 }
 
+.front-pg-img {
+  margin: 3%;
+  opacity: .6;
+}
+
+.hover-dropdown {
+  text-align: end;
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2%;
+}
+
+
+.hover-dropdown div {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 100%;
+  opacity: 0;
+  transition: .3s;
+}
+
+.hover-dropdown:hover div {
+  visibility: visible;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.hover-dropdown div a {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  color: #000;
+  transition: .1s;
+  white-space: nowrap;
+  ;
+}
+
+.hover-dropdown div a:hover {
+  background-color: black;
+  color: white !important;
+
+}
+
 #home-first-img {
   justify-content: end;
-  /* border: 25px; */
+  border: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,8 +120,13 @@ body {
   height: 400px;
 }
 
+#about {
+  font-size: 1.5rem;
+}
+
 footer {
   background-color: #003399;
+  margin-top: 2%;
 }
 
 .footer-top {
@@ -61,9 +146,8 @@ ul {
   list-style-type: none;
 }
 
-li {
+.footer-link {
   margin: 2%;
-  color: white;
 }
 
 a {
@@ -121,12 +205,12 @@ a:hover {
 
 #map {
   color: white;
-  margin: 2%;
+  margin: 1.5%;
 }
 
 .footer-bottom {
   color: white;
-  padding: .5%;
+  padding: .%;
 }
 
 #tim {

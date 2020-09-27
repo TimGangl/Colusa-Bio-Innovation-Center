@@ -15,8 +15,9 @@
 
 <body>
 
+  <!--Body Container-->
   <div class="container-fluid">
-    <div class="row mt-1">
+    <div class="row">
       <div id="home-title-box" class="col-md-6">
         <div id="home-title">
           <h1>Colusa</h1>
@@ -24,37 +25,51 @@
           <h1>Innovation</h1>
           <h1>Center</h1>
         </div>
-        <h2 id="menu">Menu</h2>
+        <div class="hover-dropdown">
+          <h3><a id="menu">Menu
+            </a></h3>
+          <div>
+            <a href="about.html">About</a>
+            <a href="start-ups.html">Start-Ups</a>
+            <a href="anchor tenants.html">Anchor Tenants</a>
+            <a href="events.html">Events</a>
+            <a href="partnerships.html">Partnerships</a>
+            <a href="sponsors.html">Sponsors</a>
+          </div>
+        </div>
       </div>
-
+      <div class="col-md-6 just"><img src="./assets/images/Colusa Office Smiling.jpeg"></div>
     </div>
-    <div class="row">
-      <div class="col-lg-6"></div>
-      <div class="col-lg-6"></div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6"><img class="front-pg-img" src="./assets/images/Warehouse Team Colusa .jpeg"></div>
+      <div class="col-lg-6"><img class="front-pg-img" src="./assets/images/3D Printer Colusa .jpeg"></div>
     </div>
+    <h1 class="text-center">Here will be a diagram</h1>
 
-    <p>Accelerating the transition to a Bio-Based Circular Economy making connections between regional agriculture and
+    <p id="about">Accelerating the transition to a Bio-Based Circular Economy making connections between regional
+      agriculture and
       commercialization facilities. A place where both Start-Ups and established companies can get support to create
       innovative
       products, reach customers and grow their companies. Creating Industrial Ecologies, hosting product showcases,
       making crucial
       linkages to capital and investment. Bio-Innovation has a home in Colusa.</p>
   </div>
-
+  <!--Footer-->
   <footer id="footer">
     <div class="footer-top">
       <div class="container-small">
         <div class="row">
           <div class="col-12 col-md-4 footer column">
+            <!--Footer Navigation-->
             <div class="footer-nav">
               <ul class="footer-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="start-ups.html">Start-Up Commercialization Center</a></li>
-                <li><a href="anchor tenants.html">Anchor Tenants</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="partnerships.html">Partnerships</a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
+                <li class="footer-link"><a href="index.html">Home</a></li>
+                <li class="footer-link"><a href="about.html">About</a></li>
+                <li class="footer-link"><a href="start-ups.html">Start-Ups</a></li>
+                <li class="footer-link"><a href="anchor tenants.html">Anchor Tenants</a></li>
+                <li class="footer-link"><a href="events.html">Events</a></li>
+                <li class="footer-link"><a href="partnerships.html">Partnerships</a></li>
+                <li class="footer-link"><a href="sponsors.html">Sponsors</a></li>
               </ul>
             </div>
           </div>
@@ -63,12 +78,12 @@
               <p id="newsletter">Sign Up For Our Newsletter</p>
               <form class="form-inline">
 
-                <div class="form-group mx-sm-3 mb-2">
+                <div class="form-group mx-sm-3">
 
                   <label for="newsletter"></label>
                   <input type="email" class="form-control" id="newsletter" placeholder="Enter email">
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                <button type="submit" class="btn btn-secondary">Submit</button>
               </form>
             </div>
             <h6 id="contact-info">Contact Information</h6>
@@ -92,7 +107,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom text-center">©2020 Colusa Bio Innovation Center | <a id="tim"
+    <div class="footer-bottom text-center">Copyright © 2020 Colusa Bio Innovation Center | <a id="tim"
         href="https://timgangl.github.io/Portfolio/" target="_blank">Tim
         Gangl Web Development</a></div>
   </footer>
