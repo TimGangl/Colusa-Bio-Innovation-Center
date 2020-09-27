@@ -1,0 +1,134 @@
+body {
+  padding: 10px;
+}
+
+#home-title-box {
+  background-color: #003399;
+  border: 25px;
+  text-align: left;
+  justify-content: center;
+  height: 400px;
+}
+
+#home-title {
+  justify-content: center;
+  color: white;
+  padding-left: 20%;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#menu {
+  text-align: end;
+  justify-content: end;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2%;
+}
+
+#home-first-img {
+  justify-content: end;
+  /* border: 25px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  height: 400px;
+}
+
+footer {
+  background-color: #003399;
+}
+
+.footer-top {
+  margin-bottom: 1%;
+}
+
+form {
+  display: inline;
+}
+
+.footer-menu {
+  margin: 4%;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+}
+
+li {
+  margin: 2%;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+#newsletter {
+  color: white;
+  padding-left: 3%;
+  margin: 2%;
+}
+
+#contact-info {
+  color: white;
+  padding-left: 5%;
+  text-decoration: underline;
+}
+
+.cbic-info,
+.social-icons {
+  color: white;
+  padding-left: 5%;
+}
+
+#icons {
+  margin: 2%;
+  color: white;
+}
+
+.cbic-info:hover,
+.social-icons:hover {
+  color: antiquewhite;
+}
+
+.google {
+  position: relative;
+  padding-bottom: 45%;
+  height: 0;
+  overflow: hidden;
+  margin: 2%;
+  margin-right: 3%;
+}
+
+#map-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+}
+
+#map {
+  color: white;
+  margin: 2%;
+}
+
+.footer-bottom {
+  color: white;
+  padding: .5%;
+}
+
+#tim {
+  color: white;
+}
