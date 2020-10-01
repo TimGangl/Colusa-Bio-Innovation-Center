@@ -1,29 +1,41 @@
-body {}
+/*--Fonts--*/
+/* font-family: 'Anton', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+body {
+  font-family: "Questrial", sans-serif;
+}
 
 .navbar {
   background-color: #003399 !important;
   color: white !important;
-  border: 5%;
+  /* border: 5%; */
   padding-right: 3%;
 }
 
 .nav-link {
   color: white !important;
-  margin: .001%;
-
+  margin: 0.001%;
 }
 
 .nav-link:hover {
   color: #f6a800 !important;
 }
 
+#Colusa {
+  font-size: 5vw;
+}
+
+.CBIC {
+  font-size: 4.5vw;
+}
+
 #title-box {
-  margin-top: 5%;
   background-color: #003399;
   border: 25px;
   text-align: left;
   justify-content: center;
-  height: 400px;
+  height: auto;
 }
 
 #title {
@@ -31,27 +43,6 @@ body {}
   color: white;
   padding-left: 20%;
   padding-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
-#home-title-box {
-  background-color: #003399;
-  border: 25px;
-  text-align: left;
-  justify-content: center;
-  height: 400px;
-}
-
-#home-title {
-  justify-content: center;
-  color: white;
-  padding-left: 20%;
-  padding-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
 }
 
 #menu {
@@ -62,11 +53,22 @@ body {}
   bottom: 0;
   right: 0;
   margin: 2%;
+  padding: 3%;
+  /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
-.front-pg-img {
-  margin: 3%;
-  opacity: .6;
+#img-1 {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-2 {
+  max-width: 100%;
+  height: auto;
+}
+#img-3 {
+  max-width: 100%;
+  height: auto;
 }
 
 .hover-dropdown {
@@ -76,8 +78,9 @@ body {}
   bottom: 0;
   right: 0;
   margin: 2%;
+  padding-right: 5px;
+  max-width: 80%;
 }
-
 
 .hover-dropdown div {
   background-color: #fff;
@@ -85,7 +88,7 @@ body {}
   z-index: 1;
   min-width: 100%;
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .hover-dropdown:hover div {
@@ -99,29 +102,18 @@ body {}
   text-decoration: none;
   padding: 8px;
   color: #000;
-  transition: .1s;
+  transition: 0.1s;
   white-space: nowrap;
-  ;
 }
 
 .hover-dropdown div a:hover {
   background-color: black;
   color: white !important;
-
-}
-
-#home-first-img {
-  justify-content: end;
-  border: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  height: 400px;
 }
 
 #about {
   font-size: 1.5rem;
+  margin: 5%;
 }
 
 footer {
@@ -210,7 +202,7 @@ a:hover {
 
 .footer-bottom {
   color: white;
-  padding: .%;
+  padding-bottom: 0.5%;
 }
 
 #tim {
