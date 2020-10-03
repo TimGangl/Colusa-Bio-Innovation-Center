@@ -11,6 +11,7 @@ body {
   color: white !important;
   /* border: 5%; */
   padding-right: 3%;
+  text-shadow: 1px 2px 1px #000;
 }
 
 .nav-link {
@@ -22,6 +23,10 @@ body {
   color: #f6a800 !important;
 }
 
+#Colusa,
+.CBIC {
+  text-shadow: 1px 2px #000;
+}
 #Colusa {
   font-size: 5vw;
 }
@@ -54,6 +59,7 @@ body {
   right: 0;
   margin: 2%;
   padding: 3%;
+  text-shadow: 1px 2px #000;
   /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
@@ -62,13 +68,11 @@ body {
   height: auto;
 }
 
-#img-2 {
-  max-width: 100%;
-  height: auto;
-}
+#img-2,
 #img-3 {
   max-width: 100%;
   height: auto;
+  opacity: 0.8;
 }
 
 .hover-dropdown {
@@ -94,7 +98,7 @@ body {
 .hover-dropdown:hover div {
   visibility: visible;
   opacity: 1;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .hover-dropdown div a {
@@ -122,7 +126,7 @@ footer {
 }
 
 .footer-top {
-  margin-bottom: 1%;
+  margin-bottom: 0%;
 }
 
 form {
@@ -140,6 +144,7 @@ ul {
 
 .footer-link {
   margin: 2%;
+  text-decoration: none;
 }
 
 a {
@@ -166,6 +171,7 @@ a:hover {
 .social-icons {
   color: white;
   padding-left: 5%;
+  text-decoration: none !important;
 }
 
 #icons {
@@ -207,4 +213,5 @@ a:hover {
 
 #tim {
   color: white;
+  text-decoration: none !important;
 }
