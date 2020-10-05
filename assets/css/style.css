@@ -3,13 +3,15 @@
 font-family: 'Questrial', sans-serif; */
 
 body {
+  color: black;
   font-family: "Questrial", sans-serif;
+  width: 100%;
 }
 
 .navbar {
   background-color: #003399 !important;
   color: white !important;
-  /* border: 5%; */
+  border: 5%;
   padding-right: 3%;
   text-shadow: 1px 2px 1px #000;
 }
@@ -63,8 +65,13 @@ body {
   /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
+#menu:hover {
+  color: #f6a800;
+}
+
 #img-1 {
   max-width: 100%;
+  filter: brightness(80%);
   height: auto;
 }
 
@@ -72,7 +79,127 @@ body {
 #img-3 {
   max-width: 100%;
   height: auto;
-  opacity: 0.8;
+  /* opacity: 0.75; */
+  filter: brightness(80%);
+}
+
+#about-text {
+  padding: 0;
+  text-align: center;
+  font-size: 1.6vw;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
+    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
+    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
+    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
+    -2px -1px 0 #000;
+  bottom: 90px;
+}
+
+#link-to-about {
+  z-index: 1;
+  text-align: center;
+  font-size: 1.8vw;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #003399;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+#link-to-about:hover {
+  color: #f6a800;
+}
+
+#warehouse-text {
+  padding: 0;
+  text-align: center;
+  font-size: 1.8vw;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
+    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
+    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
+    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
+    -2px -1px 0 #000;
+  bottom: 90px;
+}
+
+#link-to-available-space {
+  text-align: center;
+  font-size: 1.8vw;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 1;
+  position: absolute;
+  width: fit-content;
+  background-color: #003399;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+#link-to-available-space:hover {
+  color: #f6a800;
+}
+
+#labtop-text {
+  padding: 0;
+  text-align: center;
+  font-size: 1.7vw;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
+    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
+    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
+    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
+    -2px -1px 0 #000;
+  bottom: 90px;
+}
+
+#link-to-start-ups {
+  text-align: center;
+  font-size: 1.8vw;
+  position: absolute;
+  z-index: 1;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: fit-content;
+  background-color: #003399;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+#link-to-start-ups:hover {
+  color: #f6a800;
 }
 
 .hover-dropdown {
@@ -114,15 +241,39 @@ body {
   background-color: black;
   color: white !important;
 }
+#diagram {
+  text-align: center;
+  justify-content: center;
+}
 
-#about {
+.about {
+  color: black;
   font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#history,
+#facility,
+#partners {
+  margin: 5%;
+}
+
+#sponsors {
+  margin: 5%;
+}
+
+#history-text,
+#facility-text,
+#sponsors-text {
+  font-size: 1.4rem;
   margin: 5%;
 }
 
 footer {
   background-color: #003399;
   margin-top: 2%;
+  max-width: 100%;
 }
 
 .footer-top {
