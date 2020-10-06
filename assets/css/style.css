@@ -75,7 +75,7 @@ body {
 
 #img-1 {
   max-width: 100%;
-  filter: brightness(60%);
+  filter: brightness(90%);
   height: auto;
 }
 
@@ -281,6 +281,84 @@ body {
 .logo {
   margin-right: 2%;
   display: inline-block;
+}
+
+#start-up-header {
+  margin: 6%;
+}
+
+#start-up-header-email {
+  margin: 3%;
+}
+
+.start-up-text {
+  margin: 5%;
+  color: black;
+  font-size: 1.3rem;
+}
+
+#start-up-email,
+#email {
+  color: white;
+  background-color: #003399;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+#start-up-email:hover,
+#email:hover {
+  background-color: #f6a800;
+}
+
+.list-1 {
+  color: #000;
+  margin: 2%;
+  font-size: 1.2rem;
+}
+
+#list-header-2,
+#list-header-3 {
+  margin: 4%;
+}
+
+thead {
+  color: white;
+  background-color: #003399;
+}
+table.table-fit {
+  width: auto !important;
+  table-layout: auto !important;
+}
+table.table-fit thead th,
+table.table-fit tfoot th {
+  width: auto !important;
+}
+table.table-fit tbody td,
+table.table-fit tfoot td {
+  width: auto !important;
+}
+
+hr {
+  width: 70%;
+}
+
+#facility-header {
+  font-size: 1.5rem;
+}
+
+.use-facility-text {
+  font-size: 1.3rem;
+  margin: 2%;
+}
+
+.facility-headings {
+  font-size: 1.5rem;
+}
+
+#facility-icon {
+  -ms-transform: translateY(50%);
+  transform: translateY(40%);
 }
 
 footer {
