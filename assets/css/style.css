@@ -260,11 +260,11 @@ body {
 #history,
 #facility {
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 #sponsors {
-  margin: 5%;
+  margin: 4%;
 }
 
 #partners {
@@ -275,7 +275,7 @@ body {
 #facility-text,
 #sponsors-text {
   font-size: 1.4rem;
-  margin: 5%;
+  margin: 4.5%;
 }
 
 .logo {
@@ -308,10 +308,10 @@ body {
 
 #start-up-email:hover,
 #email:hover {
-  background-color: #f6a800;
+  color: #f6a800;
 }
 
-.list-1 {
+.list {
   color: #000;
   margin: 2%;
   font-size: 1.2rem;
@@ -319,28 +319,11 @@ body {
 
 #list-header-2,
 #list-header-3 {
-  margin: 4%;
+  margin: 5%;
 }
 
-thead {
-  color: white;
-  background-color: #003399;
-}
-table.table-fit {
-  width: auto !important;
-  table-layout: auto !important;
-}
-table.table-fit thead th,
-table.table-fit tfoot th {
-  width: auto !important;
-}
-table.table-fit tbody td,
-table.table-fit tfoot td {
-  width: auto !important;
-}
-
-hr {
-  width: 70%;
+li {
+  color: #000;
 }
 
 #facility-header {
@@ -359,6 +342,15 @@ hr {
 #facility-icon {
   -ms-transform: translateY(50%);
   transform: translateY(40%);
+}
+
+#available-space-text {
+  margin: 6%;
+  font-size: 2rem;
+}
+
+.available-space-contact {
+  font-size: 2rem;
 }
 
 footer {
