@@ -260,11 +260,12 @@ body {
 #history,
 #facility {
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 3.5%;
+  margin-bottom: 0.25%;
 }
 
 #sponsors {
-  margin: 4%;
+  margin: 3.5%;
 }
 
 #partners {
@@ -276,6 +277,7 @@ body {
 #sponsors-text {
   font-size: 1.4rem;
   margin: 4.5%;
+  margin-bottom: 0%;
 }
 
 .logo {
@@ -313,8 +315,8 @@ body {
 
 .list {
   color: #000;
-  margin: 2%;
   font-size: 1.2rem;
+  margin-left: 18%;
 }
 
 #list-header-2,
@@ -332,7 +334,7 @@ li {
 
 .use-facility-text {
   font-size: 1.3rem;
-  margin: 2%;
+  margin: 1.5%;
 }
 
 .facility-headings {
@@ -345,17 +347,23 @@ li {
 }
 
 #available-space-text {
-  margin: 6%;
-  font-size: 2rem;
+  margin: 5%;
+  font-size: 1.9rem;
 }
 
 .available-space-contact {
   font-size: 2rem;
 }
 
+.events-text {
+  margin: 5%;
+  color: black;
+  font-size: 1.8rem;
+}
+
 footer {
   background-color: #003399;
-  margin-top: 2%;
+  margin-top: 0%;
   max-width: 100%;
 }
 
