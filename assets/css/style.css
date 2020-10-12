@@ -1,6 +1,8 @@
 /*--Fonts--*/
 /* font-family: 'Anton', sans-serif;
 font-family: 'Questrial', sans-serif; */
+
+/* Global Styles */
 html {
   overflow-x: hidden;
 }
@@ -8,6 +10,12 @@ html {
 body {
   color: black;
   font-family: "Questrial", sans-serif;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #003399;
+  margin-top: 0%;
   max-width: 100%;
 }
 
@@ -251,19 +259,19 @@ body {
   margin-bottom: 50px;
 }
 
-.hover-dropdown div a {
+/* .hover-dropdown div a {
   display: block;
   text-decoration: none;
   padding: 8px;
   color: #000;
   transition: 0.1s;
   white-space: nowrap;
-}
+} */
 
-.hover-dropdown div a:hover {
+/* .hover-dropdown div a:hover {
   background-color: black;
   color: white !important;
-}
+} */
 
 /* #diagram {
   text-align: center;
@@ -312,13 +320,13 @@ body {
   display: inline-block;
 }
 
-#start-up-header {
+.start-up-header {
   margin: 6%;
 }
 
-#start-up-header-email {
+/* #start-up-header-email {
   margin: 3%;
-}
+} */
 
 .start-up-text {
   margin: 5%;
@@ -326,8 +334,8 @@ body {
   font-size: 1.4rem;
 }
 
-#start-up-email,
-#email {
+/* For CBIC email links */
+.email {
   color: white;
   background-color: #003399;
   text-decoration: none;
@@ -335,8 +343,7 @@ body {
   border-radius: 5px;
 }
 
-#start-up-email:hover,
-#email:hover {
+.email:hover {
   color: #f6a800;
 }
 
@@ -345,8 +352,7 @@ body {
   font-size: 1.2rem;
 }
 
-#list-header-2,
-#list-header-3 {
+.list-header {
   margin: 5%;
 }
 
@@ -385,20 +391,22 @@ li {
   font-size: 2rem;
 }
 
-.events-text {
-  margin: 5%;
-  color: black;
-  font-size: 1.8rem;
-}
-
+.events-text,
 .partnerships-text {
+  margin: 5%;
+  /* color: black; */
+  font-size: 1.8rem;
+}
+
+/* .partnerships-text {
   font-size: 1.8rem;
   margin: 5%;
-}
+} */
 
-.partnerships-logos {
-}
+/* .partnerships-logos {
+} */
 
+/* ***********Flip boxes********* */
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   float: left;
@@ -494,12 +502,6 @@ li {
   background-color: dodgerblue;
   color: white;
   transform: rotateX(180deg);
-}
-
-footer {
-  background-color: #003399;
-  margin-top: 0%;
-  max-width: 100%;
 }
 
 .footer-top {
