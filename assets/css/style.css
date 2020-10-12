@@ -62,22 +62,26 @@ footer {
 .title {
   justify-content: center;
   color: white;
+  height: auto;
   padding-left: 15%;
   padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
 }
 
 .menu-button {
   color: white;
   background-color: #003399;
+  font-size: 1.8vw;
   text-align: end;
   justify-content: end;
   position: absolute;
+  z-index: 15;
+  float: right;
   bottom: 0;
   right: 0;
-  margin: 2%;
-  margin-bottom: 1rem;
+  margin: 3%;
   margin-right: 1rem;
-  padding: 3%;
   text-shadow: 1px 2px #000;
   min-width: 100px;
   /* media query breakpoint is 790to flip menu down and to make clickable */
@@ -116,14 +120,33 @@ footer {
 
 /* homepage large display images */
 .homepage-img {
-  max-width: 100%;
-  height: auto;
   filter: brightness(90%);
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
 }
 
+/* homepage learn more links   */
+.learn-more-link {
+  z-index: 10;
+  text-align: center;
+  font-size: 1.8vw;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #003399;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.learn-more-link:hover {
+  color: #f6a800;
+}
 /* #img-2,
 #img-3 {
   max-width: 100%;
@@ -148,28 +171,6 @@ footer {
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
 } */
-
-/* homepage learn more links   */
-.learn-more-link {
-  z-index: 1;
-  text-align: center;
-  font-size: 1.8vw;
-  position: absolute;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #003399;
-  color: white;
-  border-radius: 10px;
-  padding: 0.5%;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  text-decoration: none !important;
-}
-
-.learn-more-link:hover {
-  color: #f6a800;
-}
 
 /* #link-to-available-space {
   text-align: center;
