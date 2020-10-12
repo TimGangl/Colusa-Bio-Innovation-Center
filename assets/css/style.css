@@ -233,7 +233,7 @@ footer {
   color: #f6a800;
 } */
 
-.hover-dropdown {
+/* .hover-dropdown {
   text-align: end;
   justify-content: end;
   position: absolute;
@@ -352,7 +352,13 @@ footer {
   font-size: 1.2rem;
 }
 
-.list-header {
+.list-1 {
+  margin-left: 2%;
+  font-size: 1.2rem;
+}
+
+#list-header-2,
+#list-header-3 {
   margin: 5%;
 }
 
@@ -401,9 +407,6 @@ li {
 /* .partnerships-text {
   font-size: 1.8rem;
   margin: 5%;
-} */
-
-/* .partnerships-logos {
 } */
 
 /* ***********Flip boxes********* */
@@ -458,7 +461,7 @@ li {
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box-2 {
-  float: left;
+  /* float:left; */
   background-color: transparent;
   width: 549px;
   height: 127px;
@@ -493,7 +496,7 @@ li {
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-2-front {
-  background-color: #bbb;
+  background-color: white;
   color: black;
 }
 
