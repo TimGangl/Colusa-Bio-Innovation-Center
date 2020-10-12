@@ -62,28 +62,26 @@ footer {
 .title {
   justify-content: center;
   color: white;
-  height: auto;
   padding-left: 15%;
   padding-top: 5%;
-  padding-bottom: 5%;
-  margin: 0;
 }
 
 .menu-button {
   color: white;
-  background-color: #003399;
+  /* background-color: #003399; */
   font-size: 1.8vw;
-  text-align: end;
-  justify-content: end;
   position: absolute;
-  z-index: 15;
+  justify-content: end;
+  text-align: end;
+  /* z-index: 10; */
   float: right;
   bottom: 0;
   right: 0;
-  margin: 3%;
-  margin-right: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
   text-shadow: 1px 2px #000;
-  min-width: 100px;
+  min-width: 150px;
+  max-width: 200px;
   /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
@@ -120,11 +118,12 @@ footer {
 
 /* homepage large display images */
 .homepage-img {
+  max-width: 100%;
+  height: auto;
   filter: brightness(90%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
 }
 
 /* homepage learn more links   */
