@@ -121,9 +121,10 @@ footer {
 /* homepage large display images */
 .homepage-img {
   filter: brightness(90%);
-  /* background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+  height: auto;
 }
 
 /* homepage learn more links   */
