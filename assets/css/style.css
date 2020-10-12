@@ -1,6 +1,8 @@
 /*--Fonts--*/
 /* font-family: 'Anton', sans-serif;
 font-family: 'Questrial', sans-serif; */
+
+/* Global Styles */
 html {
   overflow-x: hidden;
 }
@@ -8,6 +10,12 @@ html {
 body {
   color: black;
   font-family: "Questrial", sans-serif;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #003399;
+  margin-top: 0%;
   max-width: 100%;
 }
 
@@ -28,28 +36,30 @@ body {
   color: #f6a800 !important;
 }
 
-.Colusa,
+/* Title display text */
+/* .Colusa, */
 .CBIC {
   font-family: "Anton", sans-serif;
   text-shadow: 1px 2px #000;
   letter-spacing: 20px;
-}
-
-.Colusa {
-  font-size: 5vw;
-}
-
-.CBIC {
   font-size: 4.5vw;
 }
+/* 
+.Colusa {
+  font-size: 5vw;
+} */
 
-#title-box {
+/* .CBIC {
+  font-size: 4.5vw;
+} */
+
+.title-box {
   background-color: #003399;
   text-align: left;
   justify-content: center;
 }
 
-#title {
+.title {
   justify-content: center;
   color: white;
   padding-left: 15%;
@@ -79,37 +89,20 @@ body {
   background-color: #003399;
 }
 
-#img-1 {
-  max-width: 100%;
-  max-height: 100%;
-  filter: brightness(90%);
+/* homepage large display conatainers */
+.lg-homepage-container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#img-2,
-#img-3 {
-  max-width: 100%;
-  height: auto;
-  filter: brightness(60%);
-}
-
-.wetlab,
-.warehouse,
-.laptop {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#about-text {
+/* homepage large display text */
+.lg-homepage-text {
   padding: 0;
   text-align: center;
   font-size: 3vw;
   z-index: 1;
   position: absolute;
-  bottom: 65% !important;
+  bottom: 90px;
   width: 100%;
   color: white;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
@@ -119,10 +112,45 @@ body {
     2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
-  bottom: 90px;
 }
 
-#link-to-about {
+/* homepage large display images */
+.homepage-img {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(90%);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* #img-2,
+#img-3 {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(80%);
+} */
+
+/* #warehouse-text {
+  padding: 0;
+  text-align: center;
+  font-size: 3vw;
+  z-index: 1;
+  position: absolute;
+  bottom: 90px;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
+    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
+    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
+    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
+    -2px -1px 0 #000;
+} */
+
+/* homepage learn more links   */
+.learn-more-link {
   z-index: 1;
   text-align: center;
   font-size: 1.8vw;
@@ -139,29 +167,11 @@ body {
   text-decoration: none !important;
 }
 
-#link-to-about:hover {
+.learn-more-link:hover {
   color: #f6a800;
 }
 
-#warehouse-text {
-  padding: 0;
-  text-align: center;
-  font-size: 3vw;
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  color: white;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
-    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
-    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
-    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
-    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
-    -2px -1px 0 #000;
-  bottom: 90px;
-}
-
-#link-to-available-space {
+/* #link-to-available-space {
   text-align: center;
   font-size: 1.8vw;
   top: 88%;
@@ -177,13 +187,13 @@ body {
   padding: 0.5%;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
   text-decoration: none !important;
-}
-
+} */
+/* 
 #link-to-available-space:hover {
   color: #f6a800;
-}
+} */
 
-#laptop-text {
+/* #laptop-text {
   padding: 0;
   text-align: center;
   font-size: 3vw;
@@ -199,8 +209,8 @@ body {
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
   bottom: 90px;
-}
-
+} */
+/* 
 #link-to-start-ups {
   text-align: center;
   font-size: 1.8vw;
@@ -217,11 +227,11 @@ body {
   padding: 0.5%;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
   text-decoration: none !important;
-}
+} */
 
-#link-to-start-ups:hover {
+/* #link-to-start-ups:hover {
   color: #f6a800;
-}
+} */
 
 /* .hover-dropdown {
   text-align: end;
@@ -249,25 +259,26 @@ body {
   margin-bottom: 50px;
 }
 
-.hover-dropdown div a {
+/* .hover-dropdown div a {
   display: block;
   text-decoration: none;
   padding: 8px;
   color: #000;
   transition: 0.1s;
   white-space: nowrap;
-}
+} */
 
-.hover-dropdown div a:hover {
+/* .hover-dropdown div a:hover {
   background-color: black;
   color: white !important;
 } */
 
-#diagram {
+/* #diagram {
   text-align: center;
   justify-content: center;
-}
+} */
 
+/* homepage <p> text */
 .about {
   color: black;
   font-size: 1.5rem;
@@ -275,14 +286,15 @@ body {
   margin-right: 5%;
 }
 
-#history,
-#facility {
+/* #history,
+#facility  */
+.about-page-h1 {
   margin-left: 5%;
   margin-top: 3.5%;
   margin-bottom: 0%;
 }
 
-#sponsors {
+/* #sponsors {
   margin: 3.5%;
   margin-left: 5%;
 }
@@ -291,11 +303,12 @@ body {
   margin-left: 5%;
   margin-top: 3%;
   margin-bottom: 2.5%;
-}
+} */
 
-#history-text,
+/* #history-text,
 #facility-text,
-#sponsors-text {
+#sponsors-text  */
+.about-page-text {
   font-size: calc(0.8rem + 0.8vw);
   margin: 4.5%;
   margin-top: 2%;
@@ -307,13 +320,13 @@ body {
   display: inline-block;
 }
 
-#start-up-header {
+.start-up-header {
   margin: 6%;
 }
 
-#start-up-header-email {
+/* #start-up-header-email {
   margin: 3%;
-}
+} */
 
 .start-up-text {
   margin: 5%;
@@ -321,8 +334,8 @@ body {
   font-size: 1.4rem;
 }
 
-#start-up-email,
-#email {
+/* For CBIC email links */
+.email {
   color: white;
   background-color: #003399;
   text-decoration: none;
@@ -330,8 +343,7 @@ body {
   border-radius: 5px;
 }
 
-#start-up-email:hover,
-#email:hover {
+.email:hover {
   color: #f6a800;
 }
 
@@ -340,9 +352,9 @@ body {
   font-size: 1.2rem;
 }
 
-.list-1{
-margin-left: 2%;
-font-size: 1.2rem;
+.list-1 {
+  margin-left: 2%;
+  font-size: 1.2rem;
 }
 
 #list-header-2,
@@ -385,24 +397,25 @@ li {
   font-size: 2rem;
 }
 
-.events-text {
-  margin: 5%;
-  color: black;
-  font-size: 1.8rem;
-}
-
+.events-text,
 .partnerships-text {
-  font-size: 1.8rem;
   margin: 5%;
+  /* color: black; */
+  font-size: 1.8rem;
 }
 
+/* .partnerships-text {
+  font-size: 1.8rem;
+  margin: 5%;
+} */
 
+/* ***********Flip boxes********* */
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   float: left;
   margin: 3% !important;
   background-color: transparent;
-  width:  250px;
+  width: 250px;
   height: 250px;
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -424,7 +437,8 @@ li {
 }
 
 /* Position the front and back side */
-.flip-box-front, .flip-box-back {
+.flip-box-front,
+.flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -449,7 +463,7 @@ li {
 .flip-box-2 {
   /* float:left; */
   background-color: transparent;
-  width:  549px;
+  width: 549px;
   height: 127px;
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -471,7 +485,8 @@ li {
 }
 
 /* Position the front and back side */
-.flip-box-2-front, .flip-box-2-back {
+.flip-box-2-front,
+.flip-box-2-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -490,12 +505,6 @@ li {
   background-color: dodgerblue;
   color: white;
   transform: rotateX(180deg);
-}
-
-footer {
-  background-color: #003399;
-  margin-top: 0%;
-  max-width: 100%;
 }
 
 .footer-top {
