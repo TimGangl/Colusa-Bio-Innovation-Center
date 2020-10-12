@@ -69,6 +69,7 @@ body {
   margin-right: 1rem;
   padding: 3%;
   text-shadow: 1px 2px #000;
+  min-width: 100px;
   /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
@@ -337,7 +338,6 @@ body {
 .list {
   color: #000;
   font-size: 1.2rem;
-  margin-left: 18%;
 }
 
 #list-header-2,
