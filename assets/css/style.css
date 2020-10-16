@@ -91,6 +91,9 @@ footer {
   background-color: #003399;
 }
 
+.dropdown-item {
+  text-shadow: none;
+}
 /* homepage large display conatainers */
 .lg-homepage-container {
   background-position: center;
