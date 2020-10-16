@@ -68,18 +68,21 @@ footer {
 
 .menu-button {
   color: white;
-  background-color: #003399;
-  text-align: end;
-  justify-content: end;
+  /* background-color: #003399; */
+  font-size: 1.8vw;
   position: absolute;
+  justify-content: end;
+  text-align: end;
+  /* z-index: 10; */
+  float: right;
   bottom: 0;
   right: 0;
-  margin: 2%;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  padding: 3%;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
   text-shadow: 1px 2px #000;
-  min-width: 100px;
+  min-width: 150px;
+  max-width: 200px;
+  /* media query breakpoint is 790to flip menu down and to make clickable */
 }
 
 .menu-button:hover {
@@ -88,6 +91,9 @@ footer {
   background-color: #003399;
 }
 
+.dropdown-item {
+  text-shadow: none;
+}
 /* homepage large display conatainers */
 .lg-homepage-container {
   background-position: center;
@@ -118,11 +124,32 @@ footer {
   max-width: 100%;
   height: auto;
   filter: brightness(90%);
-  /* background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
+/* homepage learn more links   */
+.learn-more-link {
+  z-index: 10;
+  text-align: center;
+  font-size: 1.8vw;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #003399;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.learn-more-link:hover {
+  color: #f6a800;
+}
 /* #img-2,
 #img-3 {
   max-width: 100%;
@@ -147,28 +174,6 @@ footer {
     -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
     -2px -1px 0 #000;
 } */
-
-/* homepage learn more links   */
-.learn-more-link {
-  z-index: 1;
-  text-align: center;
-  font-size: 1.8vw;
-  position: absolute;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #003399;
-  color: white;
-  border-radius: 10px;
-  padding: 0.5%;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  text-decoration: none !important;
-}
-
-.learn-more-link:hover {
-  color: #f6a800;
-}
 
 /* #link-to-available-space {
   text-align: center;
@@ -554,13 +559,13 @@ li {
   transform: rotateX(180deg);
 }
 
-.press-text{
-  margin: 5%; 
+.press-text {
+  margin: 5%;
   font-size: 1.5rem;
 }
 
-.sponsors-text{
-  margin: 5%; 
+.sponsors-text {
+  margin: 5%;
   font-size: 1.5rem;
 }
 
