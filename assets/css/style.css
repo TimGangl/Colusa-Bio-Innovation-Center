@@ -42,7 +42,7 @@ footer {
   font-family: "Anton", sans-serif;
   text-shadow: 1px 2px #000;
   letter-spacing: 20px;
-  font-size: 4.5vw;
+  font-size: 6vw;
 }
 /* 
 .Colusa {
@@ -123,10 +123,10 @@ footer {
 .homepage-img {
   max-width: 100%;
   height: auto;
-  filter: brightness(90%);
-  background-position: center;
+  filter: brightness(65%);
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 /* homepage learn more links   */
