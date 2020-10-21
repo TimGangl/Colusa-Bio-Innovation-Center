@@ -33,8 +33,11 @@ footer {
 
 .nav-link {
   color: white !important;
-  font-size: 180%;
+  font-size: 165%;
+}
 
+.navbar-nav li{
+  margin-right: 10px;
 }
 
 .nav-link:hover {
@@ -465,7 +468,7 @@ li {
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #003399;
   color: white;
   transform: rotateY(180deg);
 }
@@ -513,7 +516,7 @@ li {
 
 /* Style the back side */
 .flip-box-2-back {
-  background-color: dodgerblue;
+  background-color: #003399;
   color: white;
   transform: rotateX(180deg);
 }
@@ -561,7 +564,7 @@ li {
 
 /* Style the back side */
 .flip-box-3-back {
-  background-color: dodgerblue;
+  background-color: #003399;
   color: white;
   transform: rotateX(180deg);
 }
