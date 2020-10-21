@@ -121,6 +121,10 @@ footer {
     -2px -1px 0 #000;
 }
 
+.bottom-text{
+  padding-top: 38%;
+}
+
 /* homepage large display images */
 /* .homepage-img {
   max-width: 100%;
