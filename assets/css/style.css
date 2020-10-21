@@ -72,23 +72,27 @@ footer {
 }
 
 .menu-button {
+justify-self: end;
   color: white;
   /* background-color: #003399; */
-  font-size: 1.8vw;
-  position: relative;
+  font-size: 1.9vw;
+  position: absolute;
   text-decoration: none;
   /* justify-content: end; */
   /* text-align: end; */
   /* z-index: 10; */
-  float: right;
+  /* float: right; */
   bottom: 0;
   right: 0;
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
+  /* margin-right: 1.5rem;
+  margin-bottom: 1.5rem; */
   text-shadow: 1px 2px #000;
-  min-width: 150px;
+  min-width: 200px;
   max-width: 200px;
-  /* media query breakpoint is 790to flip menu down and to make clickable */
+  padding-top: 8%;
+  padding-left: 8%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 }
 
 .menu-button:hover {
