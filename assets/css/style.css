@@ -31,6 +31,7 @@ footer {
   width: 100vw;
   /* Adjust opacity here for video brightness */
   opacity: 0.95;
+  margin-bottom: 8%;
 }
 .jumbotron video {
   position: absolute;
@@ -77,14 +78,6 @@ footer {
   letter-spacing: 20px;
   font-size: 6vw;
 }
-/* 
-.Colusa {
-  font-size: 5vw;
-} */
-
-/* .CBIC {
-  font-size: 4.5vw;
-} */
 
 .title-box {
   text-align: left;
@@ -97,7 +90,6 @@ footer {
 
 .title-row {
   width: 100%;
-  /* justify-content: left; */
   padding-left: 0;
 }
 
@@ -107,7 +99,6 @@ footer {
 }
 
 .menu-button #dropdownMenuLink {
-  /* color: white; */
   font-size: 3vw;
   text-shadow: -2px 2px 2px #003399;
 }
@@ -121,42 +112,18 @@ footer {
 .dropdown-item {
   text-shadow: none;
 }
-/* homepage large display conatainers */
-/* .lg-homepage-container {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-/* homepage large display text */
+
 .lg-homepage-text {
   padding: 0;
   text-align: center;
   font-size: 3vw;
   color: white;
-  /* text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
-    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
-    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
-    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
-    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
-    -2px -1px 0 #000; */
-  /* justify-content: left; */
   text-shadow: -2px 2px 2px #003399;
 }
 
 .bottom-text {
   padding-top: 38%;
 }
-
-/* homepage large display images */
-/* .homepage-img {
-  max-width: 100%;
-  height: auto;
-  filter: brightness(65%); */
-/* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-/* } */
 
 /* homepage learn more links   */
 .learn-more-link {
@@ -165,22 +132,6 @@ footer {
   font-size: 3vw;
   position: absolute;
   text-decoration: none;
-  /* justify-content: end; */
-  /* text-align: end; */
-  /* z-index: 10; */
-  /* float: right; */
-  /* bottom: 0;
-  right: 0; */
-  /* margin-right: 1.5rem;
-  margin-bottom: 1.5rem; */
-  /* text-shadow: 1px 2px #003399; */
-  /* text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
-    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
-    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
-    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
-    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
-    -2px -1px 0 #000; */
   font-family: "Anton", sans-serif;
   text-shadow: -2px 2px 2px #003399;
 }
@@ -191,137 +142,6 @@ footer {
   text-shadow: -2px 2px 2px white;
   text-decoration: none;
 }
-/* #img-2,
-#img-3 {
-  max-width: 100%;
-  height: auto;
-  filter: brightness(80%);
-} */
-
-/* #warehouse-text {
-  padding: 0;
-  text-align: center;
-  font-size: 3vw;
-  z-index: 1;
-  position: absolute;
-  bottom: 90px;
-  width: 100%;
-  color: white;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
-    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
-    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
-    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
-    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
-    -2px -1px 0 #000;
-} */
-
-/* #link-to-available-space {
-  text-align: center;
-  font-size: 1.8vw;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  z-index: 1;
-  position: absolute;
-  width: fit-content;
-  background-color: #003399;
-  color: white;
-  border-radius: 10px;
-  padding: 0.5%;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  text-decoration: none !important;
-} */
-/* 
-#link-to-available-space:hover {
-  color: #f6a800;
-} */
-
-/* #laptop-text {
-  padding: 0;
-  text-align: center;
-  font-size: 3vw;
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  color: white;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000,
-    1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,
-    -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000,
-    2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000,
-    -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000,
-    -2px -1px 0 #000;
-  bottom: 90px;
-} */
-/* 
-#link-to-start-ups {
-  text-align: center;
-  font-size: 1.8vw;
-  position: absolute;
-  z-index: 1;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  width: fit-content;
-  background-color: #003399;
-  color: white;
-  border-radius: 10px;
-  padding: 0.5%;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  text-decoration: none !important;
-} */
-
-/* #link-to-start-ups:hover {
-  color: #f6a800;
-} */
-
-/* .hover-dropdown {
-  text-align: end;
-  justify-content: end;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 2%;
-  padding-right: 5px;
-  max-width: 80%;
-}
-
-.hover-dropdown div {
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  min-width: 100%;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.hover-dropdown:hover div {
-  visibility: visible;
-  opacity: 1;
-  margin-bottom: 50px;
-}
-
-/* .hover-dropdown div a {
-  display: block;
-  text-decoration: none;
-  padding: 8px;
-  color: #000;
-  transition: 0.1s;
-  white-space: nowrap;
-} */
-
-/* .hover-dropdown div a:hover {
-  background-color: black;
-  color: white !important;
-} */
-
-/* #diagram {
-  text-align: center;
-  justify-content: center;
-} */
 
 /* homepage <p> text */
 .about {
@@ -339,20 +159,6 @@ footer {
   margin-bottom: 0%;
 }
 
-/* #sponsors {
-  margin: 3.5%;
-  margin-left: 5%;
-}
-
-#partners {
-  margin-left: 5%;
-  margin-top: 3%;
-  margin-bottom: 2.5%;
-} */
-
-/* #history-text,
-#facility-text,
-#sponsors-text  */
 .about-page-text {
   font-size: calc(0.65rem + 0.8vw);
   margin: 4.5%;
@@ -368,10 +174,6 @@ footer {
 .start-up-header {
   margin: 5%;
 }
-
-/* #start-up-header-email {
-  margin: 3%;
-} */
 
 .start-up-text {
   margin: 7%;
@@ -440,14 +242,8 @@ li {
 .events-text,
 .partnerships-text {
   margin: 5%;
-  /* color: black; */
   font-size: 1.8rem;
 }
-
-/* .partnerships-text {
-  font-size: 1.8rem;
-  margin: 5%;
-} */
 
 /* ***********Flip boxes********* */
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
